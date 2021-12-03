@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-weight: bold;
+    font: 7em 'Squada One';
+    background: #022b3a;
+    margin: 0;
+}
+
+.text-copy {
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 2px;
+    stroke-dashoffset: 0%;
+    animation: anim 5.5s infinite linear;
+
+}
+
+.text-copy:nth-last-child(1) {
+    stroke: #f25f5c;
+    animation-delay: -1s;
+}
+
+.text-copy:nth-last-child(2) {
+    stroke: #f25f5c;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-last-child(3) {
+    stroke: #247ba0;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-last-child(4) {
+    stroke: #247ba0;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-last-child(5) {
+    stroke: #ffe066;
+    animation-delay: -5s;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+
+}
