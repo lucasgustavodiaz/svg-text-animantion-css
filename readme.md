@@ -1,3 +1,3 @@
 # SVG Text Animation in CSS
 
-![Preview](./image/preview.jpg)
+![Preview](./image/preview.gif)
